@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\rms_counter1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_splash.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\rms_counter1\\app\\src\\main\\res\\drawable-hdpi\\bg_splash.png"
+    },
+    {
+        "merged": "C:\\Users\\mn\\Desktop\\rms_counter1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_splash.png",
+        "source": "C:\\Users\\mn\\Desktop\\rms_counter1\\app\\src\\main\\res\\drawable-hdpi\\bg_splash.png"
+    },
+    {
+        "merged": "C:\\Users\\mn\\Desktop\\rms_counter1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification.png",
+        "source": "C:\\Users\\mn\\Desktop\\rms_counter1\\app\\src\\main\\res\\drawable-hdpi\\notification.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\rms_counter1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\rms_counter1\\app\\src\\main\\res\\drawable-hdpi\\notification.png"
+    },
+    {
+        "merged": "C:\\Users\\mn\\Desktop\\rms_counter1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\mn\\Desktop\\rms_counter1\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\rms_counter1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\rms_counter1\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

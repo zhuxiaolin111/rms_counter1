@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\mn\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="C:\Users\mn\Desktop\rms_counter1\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0_bee2350015976a4c974db1731285c91c89e0c3fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\mn\Desktop\rms_counter1\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="C:\Users\mn\Desktop\rms_counter1\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0_bd1738d89275081c8ca9219f8f79587086fc418f.jar" />
+    </item>
+    <item
+        jar="C:\Users\mn\Desktop\rms_counter1\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="C:\Users\mn\Desktop\rms_counter1\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-20.0.0_41c5cad2e1090f2c518c882eb1c71bc0ed86c164.jar" />
+    </item>
+    <item
+        jar="C:\Users\mn\Desktop\rms_counter1\app\libs\usbsdk.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="59f322e8b6718212db352f6a40a43d66fa25b86a">
+        <dex dex="C:\Users\mn\Desktop\rms_counter1\app\build\intermediates\pre-dexed\debug\usbsdk_6687ce40022c593b328f2fc55ad739e068900517.jar" />
+    </item>
+
+</items>

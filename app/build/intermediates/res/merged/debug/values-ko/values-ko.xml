@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">설정</string>
+    <string name="app_name">GM Counter</string>
+    <string name="hello_world">전 세계 여러분 안녕하세요!</string>
+    <string name="server_url">http://192.168.11.20/restaurant/uploads/app/update.xml</string>
+</resources>

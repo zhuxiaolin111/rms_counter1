@@ -1,0 +1,6 @@
+.manager-con.order .con-search .form-control{width:130px;}
+.table.orderlist> thead > tr > th.thd-cen0,.table.orderlist> tbody > tr > td.thd-cen0{ width:105px;}
+.table.orderlist> thead > tr > th.thd-cen1,.table.orderlist> tbody > tr > td.thd-cen1{ width:105px;}
+.table.orderlist> thead > tr > th.thd-cen2,.table.orderlist> tbody > tr > td.thd-cen2{ width:105px;}
+.table.orderlist> tbody > tr > td.thd3 .btn{  border:1px solid #999; padding:3px 10px; font-size:16px;}
+.table.orderlist> tbody > tr > td.thd3 a{ float:right; color:#205b8d;}

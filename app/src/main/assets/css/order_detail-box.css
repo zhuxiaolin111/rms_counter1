@@ -1,0 +1,22 @@
+#tbtit {border-bottom:1px solid #ae964c; height:40px; margin-bottom:0;}
+#tbtit th{border-bottom:1px solid #9b7d1d; height:40px; color:#FFF; text-align:center; font-size:22px; font-weight:normal; line-height:38px; padding:0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffd65e+0,febf04+100;Yellow+3D+%232 */
+background: #18456a; /* Old browsers */
+background: -moz-linear-gradient(top, #205b8d 0%, #18456a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #205b8d 0%,#18456a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #205b8d 0%,#18456a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#205b8d', endColorstr='#18456a',GradientType=0 ); /* IE6-9 */}
+#tbcon.table > tbody > tr > td { }
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td { padding: 6px; line-height: 22px; vertical-align: top; border: 1px solid #a5a3a4; font-size:17px; color:#525252;}
+.table > tbody > tr > td.tdhome,.table > thead > tr > th.tdhome{ border-left:none;}
+.table > tbody > tr > td.tdend,.table > thead > tr > th.tdend{ border-right:none;}
+.table > tbody > tr > td.tdh3,.table > thead > tr > th.tdh3{ width:12%;}
+.table > tbody > tr > td.tdh2,.table > thead > tr > th.tdh2{ width:15%;}
+.table > tbody > tr > td{ text-align:center;}
+.table > tbody > tr > td.td2{ text-align:right; padding-right:8px; }
+.table > tbody > tr > td.td1{ text-align:left;padding-left:8px;}
+#tbcon> tbody > tr:nth-child(2n+1) > td { background-color: #eaeaea;}
+p.date{ color:#8d8d8d; font-size:17px;}
+p.consume{ text-align:right; padding-right:200px;color:#8d8d8d; font-size:18px;}
+p.consume .btn2{ margin-left:25px;}
+.tbstyle{ height:285px; overflow-y:scroll;}

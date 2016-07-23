@@ -1,0 +1,143 @@
+[
+    {
+        "outputFile": "C:\\Users\\Administrator\\Desktop\\rms_counter1\\app\\build\\intermediates\\res\\merged\\debug\\values-ko\\values-ko.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 46,
+                    "endOffset": 97
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\rms_counter1\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 1,
+                        "startOffset": 151,
+                        "endColumn": 43,
+                        "endOffset": 193
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 102,
+                    "endColumn": 47,
+                    "endOffset": 145
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\rms_counter1\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 53,
+                        "endColumn": 44,
+                        "endOffset": 96
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 150,
+                    "endColumn": 55,
+                    "endOffset": 201
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\rms_counter1\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 1,
+                        "startOffset": 98,
+                        "endColumn": 52,
+                        "endOffset": 149
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 206,
+                    "endColumn": 93,
+                    "endOffset": 295
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\rms_counter1\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 1,
+                        "startOffset": 195,
+                        "endColumn": 90,
+                        "endOffset": 284
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\mn\\Desktop\\rms_counter1\\app\\build\\intermediates\\res\\merged\\debug\\values-ko\\values-ko.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 46,
+                    "endOffset": 97
+                },
+                "from": {
+                    "file": "C:\\Users\\mn\\Desktop\\rms_counter1\\app\\src\\main\\res\\values-ko\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 102,
+                    "endColumn": 47,
+                    "endOffset": 145
+                },
+                "from": {
+                    "file": "C:\\Users\\mn\\Desktop\\rms_counter1\\app\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 53,
+                        "endColumn": 44,
+                        "endOffset": 96
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 150,
+                    "endColumn": 55,
+                    "endOffset": 201
+                },
+                "from": {
+                    "file": "C:\\Users\\mn\\Desktop\\rms_counter1\\app\\src\\main\\res\\values-ko\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 206,
+                    "endColumn": 93,
+                    "endOffset": 295
+                },
+                "from": {
+                    "file": "C:\\Users\\mn\\Desktop\\rms_counter1\\app\\src\\main\\res\\values-ko\\strings.xml"
+                }
+            }
+        ]
+    }
+]

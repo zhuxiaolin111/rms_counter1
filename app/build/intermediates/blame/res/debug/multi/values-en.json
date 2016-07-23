@@ -1,0 +1,143 @@
+[
+    {
+        "outputFile": "C:\\Users\\mn\\Desktop\\rms_counter1\\app\\build\\intermediates\\res\\merged\\debug\\values-en\\values-en.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 52,
+                    "endOffset": 103
+                },
+                "from": {
+                    "file": "C:\\Users\\mn\\Desktop\\rms_counter1\\app\\src\\main\\res\\values-en\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 108,
+                    "endColumn": 47,
+                    "endOffset": 151
+                },
+                "from": {
+                    "file": "C:\\Users\\mn\\Desktop\\rms_counter1\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 53,
+                        "endColumn": 44,
+                        "endOffset": 96
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 156,
+                    "endColumn": 52,
+                    "endOffset": 204
+                },
+                "from": {
+                    "file": "C:\\Users\\mn\\Desktop\\rms_counter1\\app\\src\\main\\res\\values-en\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 209,
+                    "endColumn": 93,
+                    "endOffset": 298
+                },
+                "from": {
+                    "file": "C:\\Users\\mn\\Desktop\\rms_counter1\\app\\src\\main\\res\\values-en\\strings.xml"
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\Administrator\\Desktop\\rms_counter1\\app\\build\\intermediates\\res\\merged\\debug\\values-en\\values-en.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 52,
+                    "endOffset": 103
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\rms_counter1\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 1,
+                        "startOffset": 148,
+                        "endColumn": 49,
+                        "endOffset": 196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 108,
+                    "endColumn": 47,
+                    "endOffset": 151
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\rms_counter1\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 53,
+                        "endColumn": 44,
+                        "endOffset": 96
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 156,
+                    "endColumn": 52,
+                    "endOffset": 204
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\rms_counter1\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 1,
+                        "startOffset": 98,
+                        "endColumn": 49,
+                        "endOffset": 146
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 209,
+                    "endColumn": 93,
+                    "endOffset": 298
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\rms_counter1\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 1,
+                        "startOffset": 198,
+                        "endColumn": 90,
+                        "endOffset": 287
+                    }
+                }
+            }
+        ]
+    }
+]

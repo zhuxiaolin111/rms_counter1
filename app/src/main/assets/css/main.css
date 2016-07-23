@@ -1,0 +1,68 @@
+body,html,ul ,ul li{ margin:0; padding:0; color:#858282;}
+.head{ width:100%; background-color:#205b8d; height:50px;}
+.head ul{ float:right; margin:20px 55px 0 0;}
+.head ul li{ list-style:none; float:left; color:#fff; font-size:18px;}
+.head ul li a{color:#fff;}
+.head ul li a:hover{ text-decoration:none;}
+.head ul li.sel{ border-bottom:4px solid #65daa0;}
+.btnselhouse{ margin:10px 0 0 10px; height:auto; width:150px; font-size:16px; line-height:22px; display:inline-block; color:#FFF;}
+.btnselhouse img{ margin-right:5px;}
+.btnselhouse:hover{ color:#fff; cursor:pointer;}
+.con{ width:100%; height:100%;}
+.con .divl{ float:left; width:55%; border-right:2px solid #dddddd; height:100%;}
+.con .divr{ float:right; width:44.99%;}
+.table.menu-order{ margin-bottom:0;}
+.table.menu-order> thead > tr > th{ background-color:#f7f7f7;  font-size:18px; font-weight:normal;}
+.table.menu-order> tbody > tr > td{ font-size:18px; border:none; padding:0 8px; height:50px; line-height:50px;}
+.table.menu-order > tbody > tr:nth-child(2n) > td{ background-color:#fafafa;}
+.table.menu-order> tbody > tr > td.thd1{ background-color:#f0f0f0;}
+.table.menu-order> thead > tr > th,.table.menu-order> tbody > tr > td{ text-align:center;}
+.table.menu-order> thead > tr > th.thd1,.table.menu-order> tbody > tr > td.thd1{ width:50px;}
+.table.menu-order> thead > tr > th.thd3,.table.menu-order> tbody > tr > td.thd3{ width:130px;}
+.table.menu-order> thead > tr > th.thd4,.table.menu-order> tbody > tr > td.thd4{ width:140px;}
+.table.menu-order> tbody > tr > td.thd2{ text-align:left;}
+.table.menu-order .form-control{ padding:3px 5px; height:28px; margin-top:6px;-moz-border-radius: 0px;-webkit-border-radius:0px;border-radius: 0px;}
+div.over-hidden{ overflow-y:scroll; width:100%; height:410px;}
+.table.menu-order> tbody > tr > td .input-group{ margin:0 auto;}
+.table.menu-order> tbody > tr > td .btn-default{ padding:6px 12px; font-weight:bold; font-size:16px;}
+.table.menu-order> tbody > tr > td .form-control{ width:60px; padding:6px 12px; vertical-align: middle;  height:36px; margin-top:7px;}
+.table.menu-order>tbody>tr.sel td{  background-color:#cecece;}
+.table.menu-order>tbody>tr.sel td:first-child{background:url(../img/icon_arrow.png) no-repeat  0 center #cecece;}
+.input-group-addon, .input-group-btn{ width:auto;}
+
+div.row.page{ width:100%; margin:0; background-color:#fafafa; border-bottom:2px solid #d5d5d5;border-top:1px solid #eeeeee; padding:5px 0;}
+div.page .btn,div.page .pagecount{ display:inline-block;}
+div.page .btn{ background-color:#edecec; border:1px solid #d8d8d8; border-left:2px solid #d2d2d2;  border-bottom:2px solid #d2d2d2; font-size:18px;padding: 3px 10px;}
+div.page .btn.btnsel{ background-color:#65daa0; color:#FFF;}
+div.page .btnpre{ margin-left:60px;}
+div.page .btnnext{  margin-right:60px;}
+div.page .pagecount{ text-align:center; line-height:32px; font-size:18px;}
+.bot-money{ width:100%; height:100px; text-align:right; padding-right:85px; padding-top:35px;}
+.bot-money font{ font-size:22px;}
+.con .divr .div-con{ width:380px; margin:0 auto;}
+.div-con ul li{ list-style:none;}
+.btn1{border:2px solid #d8d8d8; background-color:#edebec; font-size:18px; padding:0;}
+
+ul.settlement { margin:15px 0 40px 0; }
+ul.settlement li { text-align:center;padding:0; }
+ul.settlement li button{ width:122px; height:140px; background-color:#436a89; color:#feffff; font-size:18px;}
+.modal  .close{ width:23px;}
+.message-box{ width:100%; border-top:solid 6px #626262;}
+.new-message{ color:#fff; background-color:#626262; line-height:20px; padding-bottom:5px; margin-bottom:0; text-align:center; font-size:15px;}
+.new-message:hover{ color:#CCC;}
+.new-message img{ margin:0 5px 4px 0;}
+.message-box ul{ padding-top:10px; overflow-y:scroll; height:290px;}
+.message-box ul li:nth-child(2n){ line-height:35px; background-color:#fafafa;}
+.message-box li{height:35px; clear:both;}
+.message-box li span{ line-height:35px; float:left;display:inline-block; font-size:17px;}
+.message-box li .roomnum{ text-align:center; width:20%;}
+.message-box li .opreate{ float:right; width:25%; text-align:center;}
+.message-box li .messagecon{ width:54.9%;}
+.message-box li font{ color:#205b8d;}
+.message-box li .btn{ background-color:#65daa0; color:#FFF; padding:3px 0; text-align:center; width:70px;font-size:17px; line-height:18px;}
+
+#box_house .houselist{ width:100%; height:380px; overflow-y:scroll;}
+#box_house .houselist .btn{ padding:22px 31px; margin:5px; font-size:20px; font-weight:bold;-moz-border-radius: 4px;-webkit-border-radius:4px;border-radius: 4px;}
+#box_house .houselist .btn-primary.active{ background-color:#436a89;}
+#box_house .pbtn { text-align:center; margin-top:15px;}
+#box_house .pbtn .btn{ padding:6px 15px; width:150px;}

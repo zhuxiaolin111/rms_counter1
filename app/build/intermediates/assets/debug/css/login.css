@@ -1,0 +1,12 @@
+body,html,ul ,ul li{ margin:0; padding:0;}
+.bg{background:url(../img/bg.jpg); background-position:center top;background-repeat:no-repeat;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;zoom:1;z-index:-10;position:absolute; top:0;left:0;height:100%;width:100%;}
+.login-box{ margin:105px auto 95px; width:850px;}
+.login-box h1{ font-size:48px; margin:0; color:#a5a5a5; font-family:Arial; }
+.login-box h1 font{ font-size:30px;}
+.login-inbox{ width:310px; height:230px; margin:30px auto 0; background-color:#4f4f4f;filter:alpha(opacity=80);-moz-opacity:0.8; -khtml-opacity: 0.8; opacity: 0.8;}
+.login-inbox p{ margin-bottom:12px;}
+.login-inbox p.p-btn{ text-align:center; margin-top:25px; height:auto; }
+.login-inbox p.p-close { text-align:right; padding:10px 10px 0 0; height:25px;}
+.login-inbox p .form-control{ width:240px;  margin:0 auto;-moz-border-radius: 20px;-webkit-border-radius:20px;border-radius: 20px; background-color:#4f4f4f; color:#FFF; padding:5px 26px; }
+.login-inbox p img.icon{ position:absolute; margin:9px 0 0 42px;}
+.login-inbox p .btn{ color:#000; font-weight:bold;  width:240px;-moz-border-radius: 20px;-webkit-border-radius:20px;border-radius: 20px;}

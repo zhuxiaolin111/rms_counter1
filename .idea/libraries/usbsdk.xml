@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="usbsdk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/usbsdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

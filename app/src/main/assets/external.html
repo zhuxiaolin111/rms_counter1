@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>gou-pos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js">
+  </script>
+  <![endif]-->
+<link rel='stylesheet prefetch' href='css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='css/main.css'>
+<link rel='stylesheet prefetch' href='css/external.css'>
+<link rel='stylesheet prefetch' href='css/order_detail-box.css'>
+</head>
+<body>
+<div class="main">
+  <div class="head">
+    <ul>
+      <li><a href="index.html">内部</a>&nbsp;/</li>
+      <li  class="sel">&nbsp;<a href="external.html">外部</a>&nbsp;/</li>
+      <li>&nbsp;<a href="manager.html">管理</a></li>
+    </ul>
+  </div>
+  <div class="con">
+    <p class="con-search"> <font class="font-sty1">检索</font>
+      <input  type="text" class="form-control txtlike" placeholder="请输入订单号"/>
+      <button class="btn btn1">查找</button>
+      <span class="status">
+      <input name="optionsRadios" id="optionsRadios1" value="option1" checked="" type="radio">
+      <label class="radio inline" for="optionsRadios1"> <span></span>待发货</label>
+      <input name="optionsRadios" id="optionsRadios2" value="option2" type="radio">
+      <label class="radio inline" for="optionsRadios2"> <span></span>已发货</label>
+      <input name="optionsRadios" id="optionsRadios3" value="option3" type="radio">
+      <label class="radio inline" for="optionsRadios3"> <span></span>已完成</label>
+      </span> </p>
+    <table class="table list-sty1">
+      <thead>
+        <tr>
+          <th class="thd1">订单号</th>
+          <th class="thd2">时间</th>
+          <th class="thdcent0">总金额</th>
+          <th class="thdcent1">收货地址</th>
+          <th class="thd3">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="thd1">0005</td>
+          <td class="thd2">2015-02-02 8:00:00</td>
+          <td class="thdcent0">￥1000.00</td>
+          <td class="thdcent0">沈阳北站路30号银河国际D座1212沈阳北站路30号银河国际D座121</td>
+          <td class="thd3"><button class="btn btn1 delivery">发货</button><a  class="a_order-detail" href="#">查看详情&gt;&gt;</a></td>
+        </tr>
+        <tr>
+          <td class="thd1">0005</td>
+          <td class="thd2">2015-02-02 8:00:00</td>
+          <td class="thdcent0">￥1000.00</td>
+          <td class="thdcent0">沈阳北站路30号银河国际D座1212沈阳北站路30号银河国际D座121</td>
+          <td class="thd3">已完成<a  class="a_order-detail" href="#">查看详情&gt;&gt;</a></td>
+        </tr>
+        <tr>
+          <td class="thd1">0005</td>
+          <td class="thd2">2015-02-02 8:00:00</td>
+          <td class="thdcent0">￥1000.00</td>
+          <td class="thdcent0">沈阳北站路30号银河国际D座1212沈阳北站路30号银河国际D座121</td>
+          <td class="thd3"><button class="btn btn1 delivery">发货</button><a  class="a_order-detail" href="#">查看详情&gt;&gt;</a></td>
+        </tr>
+        <tr>
+          <td class="thd1">0005</td>
+          <td class="thd2">2015-02-02 8:00:00</td>
+          <td class="thdcent0">￥1000.00</td>
+          <td class="thdcent0">沈阳北站路30号银河国际D座1212沈阳北站路30号银河国际D座121</td>
+          <td class="thd3">已发货<a  class="a_order-detail" href="#">查看详情&gt;&gt;</a></td>
+        </tr>
+         <tr>
+          <td class="thd1">0005</td>
+          <td class="thd2">2015-02-02 8:00:00</td>
+           <td class="thdcent0">￥1000.00</td>
+             <td class="thdcent0">沈阳北站路30号银河国际D座1212沈阳北站路30号银河国际D座121</td>
+          <td class="thd3">已完成<a href="#">查看详情&gt;&gt;</a></td>
+        </tr>
+         <tr>
+          <td class="thd1">0005</td>
+          <td class="thd2">2015-02-02 8:00:00</td>
+           <td class="thdcent0">￥1000.00</td>
+             <td class="thdcent0">沈阳北站路30号银河国际D座1212沈阳北站路30号银河国际D座121</td>
+          <td class="thd3"><button class="btn btn1 delivery">发货</button><a  class="a_order-detail" href="#">查看详情&gt;&gt;</a></td>
+        </tr>
+      </tbody>
+    </table>
+    </p>
+    <div class="row page">
+      <div class="col-xs-4">
+        <button class="btn  btnpre">上一页</button>
+      </div>
+      <div class="col-xs-4 pagecount"> <font>1</font>&nbsp;/&nbsp;<font>10</font> </div>
+      <div class="col-xs-4">
+        <button class="btn btnnext btnsel">下一页</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- order detail -->
+<div id="div_order-detail" class="modal" style=" width:900px; margin:0 auto;">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+      <h3 class="modal-title">订单详情</h3>
+    </div>
+    <div class="modal-body">
+        <div class="over_hidden">
+           <div class="tb">
+             <table id="tbtit" class="table">
+            <thead>
+              <tr>
+                <th class="tdhome tdh1">商品名</th>
+                <th class="tdh3">单位</th>
+                <th class="tdh3">数量</th>
+                <th class="tdh2">单价</th>
+                <th class="tdend tdh2">金额</th>
+              </tr>
+            </thead>
+          </table>
+          <div class="tbstyle">
+            <table id="tbcon" class="table">
+              <tbody>
+                <tr>
+                  <td class="tdhome td1 tdh1">锅包肉</td>
+                  <td class="tdh3">盘</td>
+                  <td class="td3 tdh3">2</td>
+                  <td class="tdh2">￥18.00</td>
+                  <td class="tdend td2 tdh2">￥36.00</td>
+                </tr>
+                <tr>
+                  <td class="tdhome td1 tdh1">雀巢咖啡</td>
+                  <td class="tdh3">杯</td>
+                  <td class="td3 tdh3">2</td>
+                  <td class="tdh2">￥13.00</td>
+                  <td class="tdend td2 tdh2">￥26.00</td>
+                </tr>
+                <tr>
+                  <td class="tdhome td1 tdh1">锅包肉</td>
+                  <td class="tdh3">盘</td>
+                  <td class="td3 tdh3">2</td>
+                  <td class="tdh2">￥18.00</td>
+                  <td class="tdend td2 tdh2">￥36.00</td>
+                </tr>
+                <tr>
+                  <td class="tdhome td1 tdh1">雀巢咖啡</td>
+                  <td class="tdh3">杯</td>
+                  <td class="td3 tdh3">2</td>
+                  <td class="tdh2">￥13.00</td>
+                  <td class="tdend td2 tdh2">￥26.00</td>
+                </tr> <tr>
+                  <td class="tdhome td1 tdh1">锅包肉</td>
+                  <td class="tdh3">盘</td>
+                  <td class="td3 tdh3">2</td>
+                  <td class="tdh2">￥18.00</td>
+                  <td class="tdend td2 tdh2">￥36.00</td>
+                </tr>
+                <tr>
+                  <td class="tdhome td1 tdh1">雀巢咖啡</td>
+                  <td class="tdh3">杯</td>
+                  <td class="td3 tdh3">2</td>
+                  <td class="tdh2">￥13.00</td>
+                  <td class="tdend td2 tdh2">￥26.00</td>
+                </tr>
+                <tr>
+                  <td class="tdhome td1 tdh1">锅包肉</td>
+                  <td class="tdh3">盘</td>
+                  <td class="td3 tdh3">2</td>
+                  <td class="tdh2">￥18.00</td>
+                  <td class="tdend td2 tdh2">￥36.00</td>
+                </tr>
+                <tr>
+                  <td class="tdhome td1 tdh1">雀巢咖啡</td>
+                  <td class="tdh3">杯</td>
+                  <td class="td3 tdh3">2</td>
+                  <td class="tdh2">￥13.00</td>
+                  <td class="tdend td2 tdh2">￥26.00</td>
+                </tr>
+                 <tr>
+                  <td class="tdhome td1 tdh1">锅包肉</td>
+                  <td class="tdh3">盘</td>
+                  <td class="td3 tdh3">2</td>
+                  <td class="tdh2">￥18.00</td>
+                  <td class="tdend td2 tdh2">￥36.00</td>
+                </tr>
+                <tr>
+                  <td class="tdhome td1 tdh1">雀巢咖啡</td>
+                  <td class="tdh3">杯</td>
+                  <td class="td3 tdh3">2</td>
+                  <td class="tdh2">￥13.00</td>
+                  <td class="tdend td2 tdh2">￥26.00</td>
+                </tr>
+              </tbody>
+            </table>
+           </div>
+           <p class="date">消费日期：<font>2015-12-28 15:00:00</font></p>
+           <p class="consume">消费共计：￥<font class="totalmoney">120.00</font></p>
+          </div>
+        </div>
+    </div>
+    <div class="modal-footer"> </div>
+  </div>
+</div>
+<!-- order detail -->
+<!-- courier-->
+<div id="deliver-goods" class="modal" style=" width:400px; margin:0 auto;">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+      <h3 class="modal-title">发货单</h3>
+    </div>
+    <div class="modal-body">
+       <div class="deliver">
+
+        <form class="form-horizontal" role="form">
+          <p>
+            <label>订单号</label>
+            <span>
+            <input class="form-control" placeholder="" value="1522884555" disabled="" type="text">
+            </span></p>
+          <p>
+            <label>货物类别</label>
+            <span>
+            <select size="1" class="form-control">
+              <option value="0">食品</option>
+              <option value="1">设备</option>
+              <option value="2">煤炭</option>
+              <option value="3">矿产</option>
+              <option value="4">钢材</option>
+              <option value="5">饲料</option>
+              <option value="6">建材</option>
+              <option value="7">木材</option>
+              <option value="8">粮食</option>
+              <option value="9">饮料</option>
+              <option value="10">蔬菜</option>
+              <option value="11">水果</option>
+              <option value="12">畜产品</option>
+              <option value="13">农资</option>
+              <option value="14">服装</option>
+              <option value="15">鞋包</option>
+              <option value="16">日用百货</option>
+            </select>&nbsp;&nbsp;
+           
+            </span></p>
+        
+          <p>
+            <label>数量</label>
+            <span>
+            <input class="form-control" placeholder="" value="1" type="number">
+            <font class="heavy">件
+           </font></span></p>
+          <p>
+            <label>车辆种类</label>
+            <span>
+            <select size="1" class="form-control">
+              <option value="0">摩托车</option>
+              <option value="1">电瓶车</option>
+              <option value="2">自行车</option>
+            </select>
+            </span></p>
+        
+        
+          <p class="pbtn">
+            <button type="button" class="btn btn3">提交发货单</button>
+          </p>
+        </form>
+    </div>
+    </div>
+    <div class="modal-footer"> </div>
+  </div>
+</div>
+<!-- courier-->
+<script src="js/jquery-1.10.1.min.js"></script> 
+<script src="js/bootstrap.js"></script> 
+<script>
+
+    $(document).ready(function () {
+
+		 $(".a_order-detail").click(function(){
+			  $("#div_order-detail").modal("show");
+		  
+		});
+         $(".delivery").click(function(){
+			  $("#deliver-goods").modal("show");
+			  });
+		});
+   </script>
+</body>
+</html>
